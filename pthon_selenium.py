@@ -97,9 +97,14 @@ download_at.click()
 
 # Verifica Se Baixou
 def baixou():
-    arquivo = os.path.exists(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" /  f'{datetime.now().strftime("%d-%m-%Y")}.csv')
-    while arquivo == False:
-        arquivo = os.path.exists(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" /  f'{datetime.now().strftime("%d-%m-%Y")}.csv')
+    try:
+        arquivo = Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" / f'{datetime.now().strftime("%d-%m-%Y")}.csv'
+        while not os.path.exists(arquivo):
+            sleep(1)  # Aguarda 1 segundo antes de verificar novamente
+        return True
+    except Exception as e:
+        print("Ocorreu um erro:", e)
+        return False
 baixou()
 
 # Renomeia
@@ -158,9 +163,14 @@ download_at.click()
 
 # Verifica Se Baixou
 def baixou():
-    arquivo = os.path.exists(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" /  f'{datetime.now().strftime("%d-%m-%Y")}.csv')
-    while arquivo == False:
-        arquivo = os.path.exists(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" /  f'{datetime.now().strftime("%d-%m-%Y")}.csv')
+    try:
+        arquivo = Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" / f'{datetime.now().strftime("%d-%m-%Y")}.csv'
+        while not os.path.exists(arquivo):
+            sleep(1)  # Aguarda 1 segundo antes de verificar novamente
+        return True
+    except Exception as e:
+        print("Ocorreu um erro:", e)
+        return False
 baixou()
 
 # Renomeia
@@ -220,9 +230,14 @@ download_at.click()
 
 # Verifica Se Baixou
 def baixou():
-    arquivo = os.path.exists(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" /  f'{datetime.now().strftime("%d-%m-%Y")}.csv')
-    while arquivo == False:
-        arquivo = os.path.exists(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" /  f'{datetime.now().strftime("%d-%m-%Y")}.csv')
+    try:
+        arquivo = Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" / f'{datetime.now().strftime("%d-%m-%Y")}.csv'
+        while not os.path.exists(arquivo):
+            sleep(1)  # Aguarda 1 segundo antes de verificar novamente
+        return True
+    except Exception as e:
+        print("Ocorreu um erro:", e)
+        return False
 baixou()
 
 # Renomeia
@@ -282,9 +297,14 @@ download_at.click()
 
 # Verifica Se Baixou
 def baixou():
-    arquivo = os.path.exists(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" /  f'{datetime.now().strftime("%d-%m-%Y")}.csv')
-    while arquivo == False:
-        arquivo = os.path.exists(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" /  f'{datetime.now().strftime("%d-%m-%Y")}.csv')
+    try:
+        arquivo = Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" / f'{datetime.now().strftime("%d-%m-%Y")}.csv'
+        while not os.path.exists(arquivo):
+            sleep(1)  # Aguarda 1 segundo antes de verificar novamente
+        return True
+    except Exception as e:
+        print("Ocorreu um erro:", e)
+        return False
 baixou()
 
 # Renomeia
@@ -344,9 +364,14 @@ download_at.click()
 
 # Verifica Se Baixou
 def baixou():
-    arquivo = os.path.exists(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" /  f'{datetime.now().strftime("%d-%m-%Y")}.csv')
-    while arquivo == False:
-        arquivo = os.path.exists(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" /  f'{datetime.now().strftime("%d-%m-%Y")}.csv')
+    try:
+        arquivo = Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" / f'{datetime.now().strftime("%d-%m-%Y")}.csv'
+        while not os.path.exists(arquivo):
+            sleep(1)  # Aguarda 1 segundo antes de verificar novamente
+        return True
+    except Exception as e:
+        print("Ocorreu um erro:", e)
+        return False
 baixou()
 
 # Renomeia
@@ -423,9 +448,14 @@ download_at.click()
 
 # Verifica Se Baixou
 def baixou():
-    arquivo = os.path.exists(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" /  f'{datetime.now().strftime("%d-%m-%Y")}.csv')
-    while arquivo == False:
-        arquivo = os.path.exists(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" /  f'{datetime.now().strftime("%d-%m-%Y")}.csv')
+    try:
+        arquivo = Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" / f'{datetime.now().strftime("%d-%m-%Y")}.csv'
+        while not os.path.exists(arquivo):
+            sleep(1)  # Aguarda 1 segundo antes de verificar novamente
+        return True
+    except Exception as e:
+        print("Ocorreu um erro:", e)
+        return False
 baixou()
 
 # Renomeia
@@ -485,9 +515,14 @@ download_at.click()
 
 # Verifica Se Baixou
 def baixou():
-    arquivo = os.path.exists(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" /  f'{datetime.now().strftime("%d-%m-%Y")}.csv')
-    while arquivo == False:
-        arquivo = os.path.exists(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" /  f'{datetime.now().strftime("%d-%m-%Y")}.csv')
+    try:
+        arquivo = Path.home() / "HD_Externo" / "Conecta" / "Raw_Data" / f'{datetime.now().strftime("%d-%m-%Y")}.csv'
+        while not os.path.exists(arquivo):
+            sleep(1)  # Aguarda 1 segundo antes de verificar novamente
+        return True
+    except Exception as e:
+        print("Ocorreu um erro:", e)
+        return False
 baixou()
 
 # Renomeia
@@ -540,6 +575,18 @@ baixar_relatorio = wait.until(EC.visibility_of_element_located((By.XPATH,'//butt
 baixar_relatorio.click()
 sleep(1)
 
+
+# Verifica Se Baixou
+def baixou():
+    try:
+        arquivo = glob.glob(str(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data") +'/*' + 'Consultar' +'*' )[0]
+        while not os.path.exists(arquivo):
+            sleep(1)  # Aguarda 1 segundo antes de verificar novamente
+        return True
+    except Exception as e:
+        print("Ocorreu um erro:", e)
+        return False
+baixou()
 
 # Renomeia
 old_name = glob.glob(str(Path.home() / "HD_Externo" / "Conecta" / "Raw_Data") +'/*' + 'Consultar' +'*' )[0]
